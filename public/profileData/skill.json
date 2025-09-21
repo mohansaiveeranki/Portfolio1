@@ -1,0 +1,32 @@
+{
+  "intro": "Machine Learning researcher skilled in developing AI-based solutions for real-world challenges. Here are some of the key languages, frameworks, tools, and platforms I work with:",
+  "skills": [
+    {
+      "title": "Languages & Databases",
+      "items": [
+        { "icon": "photos/skills/python.jpg", "title": "Python" },
+        { "icon": "photos/skills/java.png", "title": "Java" },
+        { "icon": "photos/skills/mysql.png", "title": "SQL" },
+        { "icon": "photos/skills/matlab.jpg", "title": "Matlab" }
+      ]
+    },
+    {
+      "title": "Frameworks & Technologies",
+      "items": [
+        { "icon": "photos/skills/tensorflow.png", "title": "TensorFlow" },
+        { "icon": "photos/skills/pytorch.jpg", "title": "PyTorch" },
+        { "icon": "photos/skills/opencv.png", "title": "OpenCV" },
+        { "icon": "photos/skills/git.png", "title": "GitHub" }
+      ]
+    },
+    {
+      "title": "Tools & Platforms",
+      "items": [
+        { "icon": "photos/skills/vscode.jpg", "title": "VS Code" },
+        { "icon": "photos/skills/eclipse.png", "title": "Eclipse" },
+        { "icon": "photos/skills/jupyter.png", "title": "Jupyter Notebook" },
+        { "icon": "photos/skills/colab.png", "title": "Google Colab" }
+      ]
+    }
+  ]
+}

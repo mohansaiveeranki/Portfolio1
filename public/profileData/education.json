@@ -1,0 +1,29 @@
+{
+  "education": [
+    {
+      "title": "Aug 2024 – Jun 2026",
+      "cardTitle": "Masters in Computer Science And Engineering",
+      "cardSubtitle": "University at Buffalo, USA",
+      "cardDetailedText": "Specialization in Artificial Intelligence and Machine Learning"
+    },
+    {
+      "title": "Oct 2020 – Mar 2024",
+      "cardTitle": "B.Tech in Computer Science And Engineering",
+      "cardSubtitle": "Amrita Vishwa Vidhyapeetham, Chennai",
+      "cardDetailedText": "Specialization in Artificial Intelligence | CGPA 8.13/10"
+    }, 
+    {
+      "title": "Aug 2018 – Jun 2020",
+      "cardTitle": "Intermediate(MPC)",
+      "cardSubtitle": "State Board Of Andhara Pradesh",
+      "cardDetailedText": "Sasi Junior College - Velivennu | CGPA 10/10"
+    },
+    {
+      "title": "Jun 2017 – Mar 2018",
+      "cardTitle": "SSC",
+      "cardSubtitle": "State Board Of Andhara Pradesh",
+      "cardDetailedText": "Sasi Educational Institute - Nidadavole | GPA 10/10"
+    }
+
+  ]
+}

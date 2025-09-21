@@ -1,0 +1,21 @@
+.experience-title{
+    padding: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+.experience-title::after{
+  content: "";
+  display: block;
+  width: 150px;
+  height: 4px;
+  background: #4f46e5;
+  margin: 0.5rem auto 0;
+  border-radius: 4px;
+}
+.bLykNH {
+    margin-bottom: 0.5rem;
+    display: block;
+   
+    color: #374151;
+    font-size: 1rem !important;
+}

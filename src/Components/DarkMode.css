@@ -1,0 +1,40 @@
+.theme-toggle {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    background: black;
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+    width: 3.5rem;
+    aspect-ratio: 1;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 20px; */
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    z-index: 10;
+  }
+ 
+body[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #111827;
+   transition: background-color 0.3s ease, color 0.3s ease;
+  
+}
+
+body[data-theme="dark"] {
+  --bg-color: #000000;
+  --text-color: #f9fafb;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+  

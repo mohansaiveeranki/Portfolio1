@@ -1,0 +1,151 @@
+:root {
+    /* Colors */
+    --background-color: #f9f9fb;
+    /* Soft light neutral */
+    --text-color: #1c1c1e;
+    /* Rich black-gray for contrast */
+
+    --primary-color: #0056b3;
+    /* Deep blue – elegant & strong contrast */
+    --secondary-color: #495057;
+    /* Dark slate gray for subdued UI parts */
+    --accent-color: #d6336c;
+    /* Rose red – vivid and stylish */
+    --icon-color: #ff9800;
+    /* Rich orange – warm and readable */
+
+    --white: #ffffff;
+    --gradient: linear-gradient(135deg, #e0eafc, #f9f9fb);
+    /* Orange */
+
+    /* Font Sizes (Using clamp for responsiveness) */
+    --font-size-xs: clamp(0.75rem, 1vw, 0.8rem);
+    /* 12px - Slightly adaptive */
+    --font-size-sm: clamp(0.875rem, 1vw, 1rem);
+    /* 14px - 16px */
+    --font-size-md: clamp(0.875rem, 1.1vw, 1rem);
+    /* 14px - Slightly bigger */
+    --font-size-base: clamp(1rem, 1.2vw, 1.125rem);
+    /* 16px - 18px */
+    --font-size-lg: clamp(1.25rem, 1.5vw, 1.5rem);
+    /* 20px - 24px */
+    --font-size-xl: clamp(1.5rem, 2vw, 2rem);
+    /* 24px - 32px */
+
+    /* Line Heights */
+    --line-height-sm: 1.4;
+    --line-height-base: 1.6;
+    --line-height-lg: 1.8;
+
+
+    /* Max Width for Containers */
+    --max-width: 96rem;
+    --container-padding: 1rem;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+    /* Spacing System (8px Scale) */
+    --spacing-xxs: 0.25rem;
+    /* 4px */
+    --spacing-xs: 0.5rem;
+    /* 8px */
+    --spacing-sm: 0.75rem;
+    /* 12px */
+    --spacing-md: 1rem;
+    /* 16px */
+    --spacing-lg: 1.5rem;
+    /* 24px */
+    --spacing-xl: 2rem;
+    /* 32px */
+    --spacing-xxl: 3rem;
+    /* 48px */
+    --spacing-xxxl: 4rem;
+    /* 64px */
+
+    /* Border Radius */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 12px;
+    --border-radius-xl: 16px;
+    --border-radius-full: 9999px;
+    /* For fully rounded elements */
+
+    /* Responsive width */
+    --responsive-xl: 120rem;
+
+
+    --font-family: 'Poppins', sans-serif;
+
+}
+
+[data-theme="dark"] {
+    --background-color: #000000;
+    /* Pure black background */
+
+    --text-color: #f2f2f2;
+    /* Very light gray for smooth reading */
+    --white: #ffffff;
+    /* Use sparingly (e.g., highlights) */
+    --icon-color: #FFCC33;
+    /* Gold-like: good contrast & style */
+
+    --primary-color: #1e90ff;
+    /* Brighter than #007bff, better on dark */
+    --secondary-color: #aaaaaa;
+    /* Softer gray for less emphasis */
+    --accent-color: #ff5722;
+    /* Vibrant orange: stands out well */
+
+    --gradient: linear-gradient(145deg, #1a1a1a, #000);
+    /* Slight depth effect */
+}
+
+
+body {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.responsiveCon {
+    padding-left: var(--spacing-xs) !important;
+    padding-right: var(--spacing-xs) !important;
+    width: 100%;
+    max-width: var(--responsive-xl);
+    margin: 0 auto;
+}
+
+@media (width >=25rem) {
+    .responsiveCon {
+        padding-left: var(--spacing-sm) !important;
+        padding-right: var(--spacing-sm) !important;
+    }
+
+}
+
+@media (width >=40rem) {
+    .responsiveCon {
+        padding-left: var(--spacing-sm) !important;
+        padding-right: var(--spacing-sm) !important;
+    }
+}
+
+@media (width >=48rem) {
+    .responsiveCon {
+        padding-left: var(--spacing-xl) !important;
+        padding-right: var(--spacing-xl) !important;
+    }
+}
+
+@media (width >=64rem) {}
+
+@media (width >=80rem) {}
+
+@media (width >=96rem) {}

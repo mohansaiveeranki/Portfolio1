@@ -1,0 +1,23 @@
+{
+  "introText": "Interested in working with me?",
+  "buttonText": "Contact Me",
+  "contactLink": "mailto:hasmithakrishna173@gmail.com",
+  "moreLinksTitle": "More Links",
+  "description": "I’m passionate about leveraging AI & ML to solve real-world challenges. Let’s connect!",
+  "socialTitle": "Follow Me",
+  "socialLinks": [
+    {
+      "icon": "photos/about/linkedin.png",
+      "url": "https://www.linkedin.com/in/hasmitha-krishna"
+    },
+    {
+      "icon": "photos/about/github.png",
+      "url": "https://github.com/hasmithakrishna"
+    }, {
+      "icon": "photos/about/Gmail-logo.png",
+      "url": "https://hasmithakrishna173.gmail.com"
+    }
+  ],
+  "copyright": "2025",
+  "author": "Hasmitha Krishna Nunna"
+}

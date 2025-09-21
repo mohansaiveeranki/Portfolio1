@@ -1,0 +1,33 @@
+.image_con {
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+@media (width >=40rem) {
+   
+}
+
+@media (width >=48rem) {
+   
+}
+
+@media (width >=64rem) {
+   
+}
+
+@media (width >=80rem) {
+    
+}
+
+@media (width >=96rem) {
+   
+}   

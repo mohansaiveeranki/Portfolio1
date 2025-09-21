@@ -1,0 +1,20 @@
+{
+  "social": [
+    {
+      "network": "linkedin",
+      "href": "https://www.linkedin.com/in/hasmitha-krishna",
+      "image": "photos/about/linkedin.png"
+    },
+    {
+      "network": "github",
+      "href": "https://github.com/hasmithakrishna",
+      "image": "photos/about/github.png"
+    },
+    {
+  "network": "email",
+  "href": "mailto:hasmithakrishna173@gmail.com",
+  "image": "photos/about/Gmail-logo.png"
+   }
+
+  ]
+}

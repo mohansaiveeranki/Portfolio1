@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "title": "Brain Tumor Segmentation using Attention-Enhanced 3D U-NET",
+      "description": "Implemented Cross-Shaped Window Attention blocks with Enhanced U-NET on MRI images, achieving 94.7% Dice Coefficient.",
+      "technologies": ["Python", "Deep Learning", "Medical Imaging"]
+    },
+    {
+      "title": "Leukemia (ALL) Segmentation using Ensemble Modeling",
+      "description": "Built an ensemble model with InceptionV3, VGG16, and ResNet50 for accurate ALL diagnosis with weighted averaging.",
+      "technologies": ["Deep Learning", "Ensemble Models"]
+    },
+    {
+      "title": "Identification of Missing Persons using Deep Learning",
+      "description": "Developed AI-based 3D face reconstruction and PostgreSQL database system for missing persons search.",
+      "technologies": ["Python", "TensorFlow", "SQL"]
+    }
+  ]
+}
