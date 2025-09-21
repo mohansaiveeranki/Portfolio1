@@ -1,5 +1,5 @@
 import { useState, useEffect, memo } from "react";
-import "./typewriter.css";
+import "./TypeWriter.css";
 
 const Typewriter = ({ texts, speed = 200, delay = 2000 }) => {
   const [textIndex, setTextIndex] = useState(0);

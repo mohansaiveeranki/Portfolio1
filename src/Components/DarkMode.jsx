@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import "./Darkmode.css";
+import "./DarkMode.css";
 
 const DarkMode = () => {
   const [isDark, setIsDark] = useState(false);

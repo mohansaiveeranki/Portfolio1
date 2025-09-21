@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFlask, FaDatabase, FaLaptopCode } from "react-icons/fa";
-import "./projects.css"; // 👈 import the CSS
+import "./Projects.css"; // 👈 import the CSS
 
 const defaultProjects = [
   {

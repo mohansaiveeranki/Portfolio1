@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Chrono } from "react-chrono";
-import "./experience.css";
+import "./Experience.css";
 
 const experienceItems = [
   {
